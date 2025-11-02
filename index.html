@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .head{text-align: center;
+            background-color: whitesmoke;
+            padding: 20px;
+          
+          
+        }
+        .eachproduct{
+            width: 24%;
+            box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+            padding: 20px;
+            margin-bottom: 30px;
+            position: relative;
+        }
+        img{
+            width: 70%;
+            height: 200px;
+        }
+        .main-container{
+            display: flex;
+        }
+        #product{
+            display: flex;
+            justify-content: space-evenly;
+            flex-wrap: wrap;
+            
+        }
+        button{
+        background-color: red;
+        color: white;
+        padding: 10px;
+        border-radius: 10px;
+        border: none;
+        text-align: center;
+        margin-top: 10px;
+        }
+        .oldprice{
+            text-decoration: line-through;
+            opacity: 0.7;
+        }
+        .discount{
+            position: absolute;
+            top: 10px;
+            background-color: red;
+            border-radius: 10px;
+            padding: 5px;
+            right: 5px;
+        }
+        footer{
+            font-weight: bolder;
+            text-align: center;
+            font-size: xx-large;
+              
+        }
+        input{
+            background-color: red;
+            padding: 15px;
+            border-radius: 10px;
+            color: white;
+        }
+    </style>
+</head>
+<body>
+ 
+   <div class="head"> <h1>Welcome to our phones store, we are here to satisfy your want</h1>
+    <h2>Pick your choice below </h2>
+    </div>
+    <div id="product"></div>
+    <footer><p> We deliver Nation wide. Yuo can refer and earn also . Just click on the below button to refer</p>
+         <input type="button" value="refer us"</footer>
+    
+    <script src="script.js"></script>
+</body> 
+</html>
