@@ -19,8 +19,8 @@
             position: relative;
         }
         img{
-            width: 70%;
-            height: 200px;
+            width: 100%;
+            height: fit-content;
         }
         .main-container{
             display: flex;
@@ -64,6 +64,15 @@
             border-radius: 10px;
             color: white;
         }
+
+        @media (max-width: 760px) {
+        .main-container{
+            display: block;
+        }
+        .eachproduct {
+          width: 80%;
+        }
+      }
     </style>
 </head>
 <body>
